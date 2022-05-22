@@ -86,6 +86,12 @@ function replaceRandomChar(){
     var changed = userName.charAt(i).toUpperCase()+ userName.slice(1)
     return changed;
 }
+function replaceRandomChar2(){
+    var userName = prompt()
+    var i = Math.floor(Math.random()*userName.length)
+    var changed = userName.replace(userName.charAt(i),userName[i].toUpperCase())
+    return changed;
+}
 
 // function checkSimilerCharsInStrings (){
     // var i = 0
