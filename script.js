@@ -107,37 +107,39 @@ function replaceRandomChar2(){
 
     //     i++
     // }
-//     var name1 =prompt() 
-//     var name2 =prompt() 
-//     var age1 = parseInt(prompt()) 
-//     var age2 = parseInt(prompt())
 
-//     var rndNum = Math.floor(Math.random())
+function checkSimilerCharsInStrings (){
+    var name1 =prompt() 
+    var name2 =prompt() 
+    var age1 = parseInt(prompt()) 
+    var age2 = parseInt(prompt())
 
-//     if(name1[0] == name2[0]){
-//         console.log(rndNum)
-//     } 
-//     if(name1[name1.length-1] == name2[name2.length-1]){
-//         console.log(name1[name1.length-1])
-//     } 
-//     else{
-//         console.log(age1,age2)
-//     }
-// }
+    var rndNum = Math.floor(Math.random())
 
-// function getRandomPartOfString (text){
-//     var rndNum = Math.floor(Math.random()*6)
-//     console.log(text.subString(0,rndNum))
-// }
+    if(name1[0] == name2[0]){
+        console.log(rndNum)
+    } 
+    if(name1[name1.length-1] == name2[name2.length-1]){
+        console.log(name1[name1.length-1])
+    } 
+    else{
+        console.log(age1,age2)
+    }
+}
 
-// function (){
-//     var userNum = parseInt(prompt())
-//     var rndNum = Math.floor(Math.random()*(userNum+1))
+function getRandomPartOfString (text){
+    var rndNum = Math.floor(Math.random()*6)
+    console.log(text.substring(0,rndNum))
+}
 
-//     for(i=0; i<userNum; i++){
-//         if(userNum%3==0){
-//             console.log(userNum)
-//         }
-//     }
-//     console.log(Math.PI*userNum)
-// }
+function getNumOrPi(){
+    var userNum = parseInt(prompt())
+    var rndNum = Math.floor(Math.random()*(userNum+1))
+
+    for(i=0; i<userNum; i++){
+        if(userNum%3==0){
+            console.log(userNum)
+        }
+    }
+    console.log(Math.PI*userNum)
+}
