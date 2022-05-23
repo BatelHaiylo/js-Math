@@ -116,7 +116,7 @@ function checkSimilerCharsInStrings (){
 
     var rndNum = Math.floor(Math.random())
 
-    if(name1[0] == name2[0]){
+    if(name1[0].toUpperCase() == name2[0].toUpperCase()){
         console.log(rndNum)
     } 
     if(name1[name1.length-1] == name2[name2.length-1]){
